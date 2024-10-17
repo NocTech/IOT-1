@@ -7,7 +7,7 @@ My structure is
 ├── LICENSE
 ├── README.md
 ├── bin
-│   └── program  (generated after make)
+│   └── program (generated after make)
 ├── include
 │   └── primes.h
 ├── lib
