@@ -7,7 +7,6 @@ int main()
     int factors[20];
     int num;
 
-    // Print the first 40 prime numbers
     for (int i = 1, p = 2; i < 41; i++)
     {
         printf("%3d ", p);
@@ -17,7 +16,6 @@ int main()
     }
     printf("\n");
 
-    // Print prime factors for numbers 30 to 50
     for (int i = 30; i < 50; i++)
     {
         prime_factors(factors, &num, i);
