@@ -2,15 +2,18 @@
 DIOT24h M1 inlämningsuppgift
 Av Jonas Nygren
 
-My structure is 
+My structure is
+```
 ├── LICENSE
 ├── README.md
 ├── bin
-│   └── program
+│   └── program  (generated after make)
 ├── include
 │   └── primes.h
 ├── lib
 │   └── primes.o (generated after make)
 └── src
     ├── main.c
-    └── primes.c
+    ├── primes.c
+    └── Makefile
+```
